@@ -1,0 +1,15 @@
+js
+javascript
+sql
+mysql
+postgresql
+mongo
+mongodb
+mssql
+oracle
+hunspell
+nspell
+eslint
+params
+xpath
+apache
