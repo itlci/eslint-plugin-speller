@@ -1,7 +1,11 @@
 {
   "name": "eslint-plugin-speller",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Spell checker for JS files",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itlci/eslint-plugin-speller.git"
+  },
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -30,5 +34,9 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itlci/eslint-plugin-speller/issues"
+  },
+  "homepage": "https://github.com/itlci/eslint-plugin-speller"
 }
