@@ -86,6 +86,7 @@ This rule accepts a single options argument:
 - Set the `identifiers` option to false if you want disable linting a identifiers (eg. name of variables or functions). Default is true.
 - Set the `dictionary` option to the name of the npm dictionary package that is compatible with nspell. A list of dictionaries is available here -> https://github.com/wooorm/dictionaries. You must install the additional package on your own. The default is `dictionary-en-us` - you don't have to install it separately. It accepts Array or String.
 - Set the `customDictionary` option to a list of your own words that do not appear in the dictionary.
+- Set the `attachItWords` option to false if you want disable attach IT words from [speller-it-words](https://github.com/itlci/speller-it-words) package
 
 #### Example option:
 
@@ -95,7 +96,8 @@ This rule accepts a single options argument:
   "literals": true,
   "identifiers": true,
   "dictionary": ["dictionary-en-us", "dictionary-pl"],
-  "customDictionary": ["yourcustomword"]
+  "customDictionary": ["yourcustomword"],
+  "attachItWords": true
 }
 ```
 
@@ -112,7 +114,8 @@ This rule accepts a single options argument:
             "literals": true,
             "identifiers": true,
             "dictionary": ["dictionary-en-us", "dictionary-pl"],
-            "customDictionary": ["yourcustomword"]
+            "customDictionary": ["yourcustomword"],
+            "attachItWords": "true"
         }
     ]
 }
