@@ -23,12 +23,14 @@
     "test": "mocha tests --recursive"
   },
   "dependencies": {
-    "lodash.words": "^4.2.0",
-    "nspell": "^2.1.2",
     "dictionary-en-us": "^2.1.1",
+    "lodash.words": "^4.2.0",
+    "mem": "^6.0.0",
+    "nspell": "^2.1.2",
     "speller-it-words": "^0.1.1"
   },
   "devDependencies": {
+    "dictionary-pl": "^1.2.2",
     "eslint": "^6.6.0",
     "mocha": "^6.2.2"
   },

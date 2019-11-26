@@ -87,6 +87,8 @@ This rule accepts a single options argument:
 - Set the `dictionary` option to the name of the npm dictionary package that is compatible with nspell. A list of dictionaries is available here -> https://github.com/wooorm/dictionaries. You must install the additional package on your own. The default is `dictionary-en-us` - you don't have to install it separately. It accepts Array or String.
 - Set the `customDictionary` option to a list of your own words that do not appear in the dictionary.
 - Set the `attachItWords` option to false if you want disable attach IT words from [speller-it-words](https://github.com/itlci/speller-it-words) package
+- Set the `suggest` option to false if you want disable suggest similar word
+- Set the `cache` option to false if you want disable cache result of word spelling and suggest similar word
 
 #### Example option:
 
@@ -97,7 +99,9 @@ This rule accepts a single options argument:
   "identifiers": true,
   "dictionary": ["dictionary-en-us", "dictionary-pl"],
   "customDictionary": ["yourcustomword"],
-  "attachItWords": true
+  "attachItWords": true,
+  "suggest": true,
+  "cache": true
 }
 ```
 
@@ -115,7 +119,9 @@ This rule accepts a single options argument:
             "identifiers": true,
             "dictionary": ["dictionary-en-us", "dictionary-pl"],
             "customDictionary": ["yourcustomword"],
-            "attachItWords": "true"
+            "attachItWords": "true",
+            "suggest": true,
+            "cache": true
         }
     ]
 }
